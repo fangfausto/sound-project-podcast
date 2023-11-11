@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Share";
+    src: url(/fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf) format("truetype");
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -6,16 +11,18 @@ body {
 }
 
 header {
-    background-color: #000;
+    background-color:#191526;
     color: #fff;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 8vh;
 }
 
 h1 {
     margin-left: 50px;
+    font-family: Share;
 }
 
 nav ul {
@@ -26,6 +33,7 @@ nav ul {
 
 nav li {
     margin-right: 30px;
+    font-family: Share;
 }
 
 nav a {
@@ -34,9 +42,35 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
 section {
     padding: 30px;
     margin: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    justify-content: center;
+    text-align: center;
+}
+
+#episodes, #contact{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 30px;
+    font-family: Share;
+    color: #191526
+}
+
+#home h2{
+    font-family: Share;
+    font-size: 80px;
+    text-align: center;
+    font-family: Share;
+    color:#fff;
+
 }
 
 @media (max-width: 600px) {
@@ -46,7 +80,7 @@ section {
 }
 
 footer {
-    background-color: #000;
+    background-color: #191526;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -55,15 +89,14 @@ footer {
 }
 
 #home {
-    background: url('images/host.png') no-repeat center center fixed;
+    background: url('images/host.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    text-size: 100px;
 }
 #home p {
     font-size: 10em; /* Adjust the font size for the paragraph */
+    font-family: Arial;
 }
