@@ -49,14 +49,19 @@ nav a:hover {
 section {
     padding: 30px;
     margin: 20px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     justify-content: center;
     text-align: center;
 }
 
-#episodes, #contact{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#about {
+    max-width: 80ch; /* Set a maximum width in characters */
+    line-height: 2;
 }
+
+#episodes {
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
 
 section h2 {
     font-size: 30px;
@@ -70,7 +75,7 @@ section h2 {
     text-align: center;
     font-family: Share;
     color:#fff;
-
+    margin-bottom: 2px;
 }
 
 @media (max-width: 600px) {
@@ -79,23 +84,39 @@ section h2 {
     }
 }
 
-footer {
-    background-color: #191526;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
-}
-
 #home {
     background: url('images/host.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #home p {
-    font-size: 10em; /* Adjust the font size for the paragraph */
+    font-size: 18px;
+    letter-spacing: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #191526;
+    color: #fff;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.social-icons img {
+    width: 30px; 
+    height: 30px; 
+    margin: 5px;
 }
