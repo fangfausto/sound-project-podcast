@@ -1,0 +1,66 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4; 
+}
+
+/* Styling for the header section */
+header {
+    background-color: #000;
+    color: #fff; 
+    padding: 30px;
+    display: flex; 
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center items vertically */
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+/* Styling for the navigation menu */
+nav ul {
+    margin-right: 50px;
+    list-style: none; 
+    display: flex; /* Use flexbox for layout */
+}
+
+/* Styling for list items in the navigation menu */
+nav li {
+    margin-right: 30px; /* Space betweent the items */
+}
+
+/* Styling for links in the navigation menu */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set link color to white */
+    font-weight: bold; /* Set font weight to bold */
+}
+
+/* Styling for the main content section */
+section {
+    padding: 30px; /* Add padding to the section */
+    background-color: #fff; /* Set a white background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 20px; /* Add margin to the section */
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    section {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Styling for the footer section */
+footer {
+    background-color: #000; /* Set a dark background color */
+    color: #fff; /* Set text color to white */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add padding to the footer */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align the bottom of the footer to the bottom of the viewport */
+    width: 100%; /* Set the width to 100% of the viewport */
+}
