@@ -20,6 +20,8 @@
   I am quite proud of how the footer section turned out. Initially, I included a subscribe button where the user could leave their email to subscribe to the podcast. However, I decided to delete it because it was simpler to just include the contact information there, considering other sections of the webpage were much simpler in terms of interaction and content.
 
   #### Pierre:
+  In this project, once we collaboratively developed the script and outlined the overall framework of the podcast, the next phase involved recording. I took the role of the podcast host "Colin". Following the completion and finalization of the audio by the team, I proceeded to craft a visual design that seamlessly complements and integrates with the audio content that is placed on the website to present the podcast snippet.
+
 
  
 
