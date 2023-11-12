@@ -43,3 +43,4 @@ document.addEventListener("DOMContentLoaded", function () {
         aboutSection.classList.add("about-visible");
     });
 });
+
