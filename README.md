@@ -21,7 +21,7 @@
 
   #### Pierre:
 
-  In this project, once we collaboratively developed the script and outlined the overall framework of the podcast, the next phase involved recording. I assumed the role of the podcast host, specifically for the show named "Colin." Following the completion and finalization of the audio segment by the team, I proceeded to craft a visual design that seamlessly complements and integrates with the audio content.
+ 
 
 ### Reflection and Evaluation
 - This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version
