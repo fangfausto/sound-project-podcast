@@ -54,7 +54,6 @@ section {
 }
 
 #about {
-    max-width: 80ch; /* Set a maximum width in characters */
     line-height: 2;
 }
 
