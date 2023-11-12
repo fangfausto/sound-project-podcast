@@ -3,6 +3,12 @@
 ### Project Description
 - What is the project, what is the overall concept and theme, and what kind of experience you were striving to create
 
+  After several brainstorming sessions, we decided to go with the concept of creating a podcast. Since the assignment required the audio to be 2-3 mins long, we knew we could not record an entire episode in that short duration so we decided to record a little snippet instead.
+  
+  The core concept underpinning our audio piece centers on "Behind the Scenes," a podcast hosted by the charismatic Collins. This podcast falls within the entertainment genre and features Collins as he invites prominent figures from the entertainment industry to provide listeners with a rare glimpse into the world "behind the scenes." In this sonic journey, we aimed to unravel the myriad experiences that never quite make it to the screen, offering a backstage pass to the industry's captivating narratives.
+  
+  Our primary goal was to craft a narrative that could blend engagement with humor, ensuring that the listener remains enthralled throughout. To achieve this, we decided to incorporate a a variety of sound effects in order to transform the auditory experience into a sort of mental imagery. These effects were thoughtfully chosen to compliment the story being narrated, allowing the listeners to paint vivid mental pictures, enhancing the overall storytelling experience.
+
 ### Process 
 - How did you go about implementing the concept
 
