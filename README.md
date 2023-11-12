@@ -45,4 +45,8 @@
  
 
 ### Reflection and Evaluation
-- This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version
+Overall, we are all pretty content with the final product. From the audio composition to the web implementation, we believe that we were able to effectively put together different components of the project to create a coherent and engaging experience. 
+
+The time constraint however limited our storytelling potential. Given the freedom of an extended duration, we could have delved deeper into the realm of descriptive narration, enhancing the overall immersive experience. 
+
+One notable achievement that we take pride in is our ability to fashion the final product into an authentic podcast snippet. After listening to different interviews, we were able discern and incorporate the nuanced elements essential for replicating the authenticity of a genuine podcast experience into our audio.
