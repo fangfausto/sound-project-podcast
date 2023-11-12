@@ -1,8 +1,16 @@
+/* Font face for custom font */
 @font-face {
     font-family: "Share";
     src: url(/fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf) format("truetype");
 }
 
+/* Common background image styles for header and home */
+.background-image {
+    background: url('images/host.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Body styles */
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -10,8 +18,12 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header styles */
 header {
-    background-color:#191526;
+    /* Applying the common background-image class to the header */
+    background: url('images/host.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(25, 21, 38, 0.8); /* Transparent dark background */
     color: #fff;
     padding: 30px;
     display: flex;
@@ -20,19 +32,18 @@ header {
     height: 8vh;
 }
 
-h1 {
-    margin-left: 50px;
-    font-family: Share;
+/* Navigation styles */
+nav {
+    margin: 0 auto;
 }
 
 nav ul {
-    margin-right: 50px;
     list-style: none;
     display: flex;
 }
 
 nav li {
-    margin-right: 30px;
+    margin-right: 80px;
     font-family: Share;
 }
 
@@ -46,6 +57,34 @@ nav a:hover {
     color: #ff9900; /* Change the color on hover */
 }
 
+/* Home section styles */
+#home {
+    /* Applying the common background-image class to the home section */
+    background: url('images/host.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h2 {
+    font-family: 'Raleway';
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+#home p {
+    font-size: 18px;
+    letter-spacing: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+
 section {
     padding: 30px;
     margin: 20px;
@@ -54,7 +93,24 @@ section {
 }
 
 #about {
+    background-color: rgba(255, 255, 255, 0.8); 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+    padding-bottom: 100px;
+}
+#about p {
+    color: #fff;
     line-height: 2;
+    font-size: 20px;
+    text-align: center;
+    max-width: 80ch;
+    margin: 0 auto;
+}
+
+.about-visible {
+    opacity: 1;
+    visibility: visible;
 }
 
 #episodes {
@@ -67,38 +123,6 @@ section h2 {
     font-family: Share;
     color: #191526
 }
-
-#home h2{
-    font-family: Share;
-    font-size: 80px;
-    text-align: center;
-    font-family: Share;
-    color:#fff;
-    margin-bottom: 2px;
-}
-
-@media (max-width: 600px) {
-    section {
-        margin: 10px;
-    }
-}
-
-#home {
-    background: url('images/host.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#home p {
-    font-size: 18px;
-    letter-spacing: 15px;
-    text-align: center;
-    color: #fff;
-}
-
 
 /* Footer Styles */
 footer {
@@ -119,3 +143,4 @@ footer {
     height: 30px; 
     margin: 5px;
 }
+    
