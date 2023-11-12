@@ -11,15 +11,13 @@
   #### Izah: 
 
   #### Buka:
-  Taking charge of the website's holistic implementation, my role revolved around translating our conceptualized wireframe and UI design from Figma into an actual webpage. The collaboration with Izah laid the groundwork, with meticulous focus on fonts, color palettes, and imagery.
+  For this project, my role was to work on the overall implementation of the website. As a team, we discussed the general wireframe and user interface design for the webpage. Once we had a general wireframe using Figma, Izah and I initiated the implementation process.
 
-  Initiating the development phase, I crafted the webpage's foundational CSS and HTML structures. As Izah enriched the visual elements, I embarked on infusing a seamless parallax effect to elevate both the background image and content. The challenge lay in the scarcity of content, typical of a podcast-centric project. To counterbalance, I opted for strategic experimentation with effects rather than overwhelming the webpage with unnecessary sections.
+  Initially, I created simple CSS and HTML for the webpage. After Izah worked on the fonts, color palettes, and images for the webpage, I focused on creating a straightforward parallax effect for both the background image and the contents. Given the project's emphasis on a podcast and our limited content, building this webpage presented a bit of a challenge for me. Consequently, I decided to experiment with different effects instead of incorporating many different sections throughout the webpage. I designed the navigation bar to enhance user navigation through different parts of the webpage. Also, I believe including a hover effect on the navigation bar improved the user experience. However, due to the limited content, aside from our podcast snippet, I differentiated each section by applying various effects while using the navigation bar.
 
-  The navigation bar emerged as a crucial element, designed not just for directional purpose but also to enhance user engagement. Implementing a hover effect on the navigation bar contributed to an enriched user experience. Distinct sections were marked by various effects, creating a dynamic feel. The 'Episodes' section, housing our sound project, epitomized this approach.
+  For instance, the home button directs the user to the initial interface when visiting the website. The about button doesn't lead to a different section but rather displays a paragraph about the host and the podcast on the home page. The next section is titled "Episodes," featuring our sound project. Furthermore, I chose the contact button to take the user to the footer section, which includes the contact information, instead of introducing another section.
 
-  Noteworthy is the deliberate decision to streamline user interaction. The 'About' button seamlessly displayed relevant information on the home page, while the 'Contact' button intelligently directed users to the footer, consolidating contact information without introducing redundant sections.
-
-  The footer, a source of pride, evolved from initial complexities to a refined simplicity. While an initial notion of a subscribe button was considered, practicality led to its exclusion in favor of a clean contact information display.
+  I am quite proud of how the footer section turned out. Initially, I included a subscribe button where the user could leave their email to subscribe to the podcast. However, I decided to delete it because it was simpler to just include the contact information there, considering other sections of the webpage were much simpler in terms of interaction and content.
 
   #### Pierre:
 
