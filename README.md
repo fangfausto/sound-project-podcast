@@ -8,7 +8,11 @@
 
   #### Fausto:
 
-  #### Izah: 
+  #### Izah:
+   After a collaborative brainstorming session within our team, I teamed up with Buka to bring our web project to life. Buka took the lead in crafting the website's structure using HTML and CSS, meticulously translating our collective wireframes into a functional design. Meanwhile, I focused on enhancing the website's aesthetic appeal by incorporating various elements.
+
+  I tried using Google Fonts to select typefaces that complemented our design, and fine-tuned the color palette to create a harmonious visual experience. Subtle touches like applying box shadows to sections and hover effects also elevated the overall look of the site. The final touch was integrating audio into the site, a straightforward process that, with a touch of CSS styling, brought the entire project together.
+
 
   #### Buka:
   For this project, my role was to work on the overall implementation of the website. As a team, we discussed the general wireframe and user interface design for the webpage. Once we had a general wireframe using Figma, Izah and I initiated the implementation process.
